@@ -1,0 +1,26 @@
+# KiCad backup files
+*-backups/
+*.bak
+*~
+\#*\#
+*.lck
+
+# KiCad auto-saved files
+\#auto_saved_files\#
+*.000
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Gerber output (optional - uncomment if you want to track these)
+# gerbers/
+# *.gbr
+# *.drl
+
+# Fabrication outputs
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+
+# OS files
+.DS_Store
+Thumbs.db
